@@ -65,6 +65,7 @@ namespace calc
             // 
             // btn1
             // 
+            this.btn1.Font = new System.Drawing.Font("굴림", 20F);
             this.btn1.Location = new System.Drawing.Point(15, 200);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(63, 53);
@@ -76,6 +77,7 @@ namespace calc
             // 
             // btn2
             // 
+            this.btn2.Font = new System.Drawing.Font("굴림", 20F);
             this.btn2.Location = new System.Drawing.Point(84, 200);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(63, 53);
@@ -87,6 +89,7 @@ namespace calc
             // 
             // btn3
             // 
+            this.btn3.Font = new System.Drawing.Font("굴림", 20F);
             this.btn3.Location = new System.Drawing.Point(153, 200);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(63, 53);
@@ -98,6 +101,7 @@ namespace calc
             // 
             // btn4
             // 
+            this.btn4.Font = new System.Drawing.Font("굴림", 20F);
             this.btn4.Location = new System.Drawing.Point(15, 141);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(63, 53);
@@ -109,6 +113,7 @@ namespace calc
             // 
             // btn5
             // 
+            this.btn5.Font = new System.Drawing.Font("굴림", 20F);
             this.btn5.Location = new System.Drawing.Point(84, 141);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(63, 53);
@@ -120,6 +125,7 @@ namespace calc
             // 
             // btn6
             // 
+            this.btn6.Font = new System.Drawing.Font("굴림", 20F);
             this.btn6.Location = new System.Drawing.Point(153, 141);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(63, 53);
@@ -131,6 +137,7 @@ namespace calc
             // 
             // btn7
             // 
+            this.btn7.Font = new System.Drawing.Font("굴림", 20F);
             this.btn7.Location = new System.Drawing.Point(15, 82);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(63, 53);
@@ -142,6 +149,7 @@ namespace calc
             // 
             // btn8
             // 
+            this.btn8.Font = new System.Drawing.Font("굴림", 20F);
             this.btn8.Location = new System.Drawing.Point(84, 82);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(63, 53);
@@ -153,6 +161,7 @@ namespace calc
             // 
             // btn9
             // 
+            this.btn9.Font = new System.Drawing.Font("굴림", 20F);
             this.btn9.Location = new System.Drawing.Point(153, 82);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(63, 53);
@@ -164,6 +173,7 @@ namespace calc
             // 
             // btn0
             // 
+            this.btn0.Font = new System.Drawing.Font("굴림", 20F);
             this.btn0.Location = new System.Drawing.Point(84, 259);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(63, 53);
@@ -175,6 +185,7 @@ namespace calc
             // 
             // btnResult
             // 
+            this.btnResult.Font = new System.Drawing.Font("굴림", 20F);
             this.btnResult.Location = new System.Drawing.Point(153, 259);
             this.btnResult.Name = "btnResult";
             this.btnResult.Size = new System.Drawing.Size(63, 53);
@@ -186,6 +197,7 @@ namespace calc
             // 
             // btnSum
             // 
+            this.btnSum.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnSum.Location = new System.Drawing.Point(235, 82);
             this.btnSum.Name = "btnSum";
             this.btnSum.Size = new System.Drawing.Size(63, 53);
@@ -197,6 +209,7 @@ namespace calc
             // 
             // btnSub
             // 
+            this.btnSub.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnSub.Location = new System.Drawing.Point(235, 141);
             this.btnSub.Name = "btnSub";
             this.btnSub.Size = new System.Drawing.Size(63, 53);
@@ -208,28 +221,31 @@ namespace calc
             // 
             // btnMul
             // 
+            this.btnMul.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnMul.Location = new System.Drawing.Point(235, 200);
             this.btnMul.Name = "btnMul";
             this.btnMul.Size = new System.Drawing.Size(63, 53);
             this.btnMul.TabIndex = 14;
             this.btnMul.TabStop = false;
-            this.btnMul.Text = "*";
+            this.btnMul.Text = "×";
             this.btnMul.UseVisualStyleBackColor = true;
             this.btnMul.Click += new System.EventHandler(this.btnMul_Click);
             // 
             // btnDiv
             // 
+            this.btnDiv.Font = new System.Drawing.Font("굴림", 20F);
             this.btnDiv.Location = new System.Drawing.Point(235, 259);
             this.btnDiv.Name = "btnDiv";
             this.btnDiv.Size = new System.Drawing.Size(63, 53);
             this.btnDiv.TabIndex = 15;
             this.btnDiv.TabStop = false;
-            this.btnDiv.Text = "/";
+            this.btnDiv.Text = "÷";
             this.btnDiv.UseVisualStyleBackColor = true;
             this.btnDiv.Click += new System.EventHandler(this.btnDiv_Click);
             // 
             // btnReset
             // 
+            this.btnReset.Font = new System.Drawing.Font("굴림", 20F);
             this.btnReset.Location = new System.Drawing.Point(15, 259);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(63, 53);
