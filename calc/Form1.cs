@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace calc
@@ -29,7 +22,7 @@ namespace calc
 
         private void label1_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void button10_Click(object sender, EventArgs e)                    // 숫자 0버튼을 눌렀을 때
@@ -67,7 +60,7 @@ namespace calc
                 firstNum = "1";
                 label1.Text = firstNum;
             }
-            else if(logicBool==true && SecondNum == "0")
+            else if (logicBool == true && SecondNum == "0")
             {
                 SecondNum = "1";
                 label1.Text = SecondNum;
@@ -407,7 +400,7 @@ namespace calc
                 firstNum = stringresult;                                    // 다음계산을 위해 계산결과값을 첫번째 숫자로 입력
                 label2.Text = intfirstNum + "+" + intsecondNum;             // 임시식에 최종식을 입력
             }
-            if(logicSymbol == 2)                                               // 빼기 계산
+            if (logicSymbol == 2)                                               // 빼기 계산
             {
                 Result = intfirstNum - intsecondNum;
                 String stringresult = Convert.ToString(Result);
@@ -479,8 +472,8 @@ namespace calc
         private void Key_Down(object sender, KeyEventArgs e)
         {
             // 숫자 키다운 이벤트
-            if (e.KeyCode == Keys.NumPad0|| e.KeyCode == Keys.NumPad1 || e.KeyCode == Keys.NumPad2 || e.KeyCode == Keys.NumPad3 || e.KeyCode == Keys.NumPad4
-                ||e.KeyCode == Keys.NumPad5 || e.KeyCode == Keys.NumPad6 || e.KeyCode == Keys.NumPad7 || e.KeyCode == Keys.NumPad8 || e.KeyCode == Keys.NumPad9)
+            if (e.KeyCode == Keys.NumPad0 || e.KeyCode == Keys.NumPad1 || e.KeyCode == Keys.NumPad2 || e.KeyCode == Keys.NumPad3 || e.KeyCode == Keys.NumPad4
+                || e.KeyCode == Keys.NumPad5 || e.KeyCode == Keys.NumPad6 || e.KeyCode == Keys.NumPad7 || e.KeyCode == Keys.NumPad8 || e.KeyCode == Keys.NumPad9)
             {
                 if (e.KeyCode == Keys.NumPad0 && firstNum == "0" && SecondNum == "0")
                 {
@@ -524,7 +517,7 @@ namespace calc
 
 
             // 엔터키 키다운 이벤트
-            else if(e.KeyCode == Keys.Enter)
+            else if (e.KeyCode == Keys.Enter)
             {
                 btnResult_Click(sender, e);
             }
