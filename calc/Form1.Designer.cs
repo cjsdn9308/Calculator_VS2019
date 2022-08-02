@@ -289,6 +289,7 @@ namespace calc
             this.Controls.Add(this.label1);
             this.KeyPreview = true;
             this.Name = "Form1";
+            this.Opacity = 0.98D;
             this.Text = "계산기";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Key_Down);
             this.ResumeLayout(false);
