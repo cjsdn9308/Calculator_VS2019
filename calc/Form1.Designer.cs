@@ -198,7 +198,7 @@ namespace calc
             // btnSum
             // 
             this.btnSum.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnSum.Location = new System.Drawing.Point(235, 82);
+            this.btnSum.Location = new System.Drawing.Point(232, 82);
             this.btnSum.Name = "btnSum";
             this.btnSum.Size = new System.Drawing.Size(63, 53);
             this.btnSum.TabIndex = 12;
@@ -210,7 +210,7 @@ namespace calc
             // btnSub
             // 
             this.btnSub.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnSub.Location = new System.Drawing.Point(235, 141);
+            this.btnSub.Location = new System.Drawing.Point(232, 141);
             this.btnSub.Name = "btnSub";
             this.btnSub.Size = new System.Drawing.Size(63, 53);
             this.btnSub.TabIndex = 13;
@@ -222,7 +222,7 @@ namespace calc
             // btnMul
             // 
             this.btnMul.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnMul.Location = new System.Drawing.Point(235, 200);
+            this.btnMul.Location = new System.Drawing.Point(232, 200);
             this.btnMul.Name = "btnMul";
             this.btnMul.Size = new System.Drawing.Size(63, 53);
             this.btnMul.TabIndex = 14;
@@ -234,7 +234,7 @@ namespace calc
             // btnDiv
             // 
             this.btnDiv.Font = new System.Drawing.Font("굴림", 20F);
-            this.btnDiv.Location = new System.Drawing.Point(235, 259);
+            this.btnDiv.Location = new System.Drawing.Point(232, 259);
             this.btnDiv.Name = "btnDiv";
             this.btnDiv.Size = new System.Drawing.Size(63, 53);
             this.btnDiv.TabIndex = 15;
